@@ -26,35 +26,10 @@
   padding-left: 0.7rem;
 }
 
-.skills-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-top: 0.8rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  padding: 0.2rem;
-}
-
-.skills-category {
-  display: flex;
-  align-items: baseline;
-  min-width: 40%;
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  padding: 0.2rem;
-  text-align: justify;
-}
-
 .skills-card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 0rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  padding: 0.2rem;
 }
 
 /* ============= Device specific fixes ======= */
