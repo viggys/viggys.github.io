@@ -12,8 +12,8 @@
         $('#top-navbar').removeClass('initial-navbar');
         $('#top-navbar').addClass('final-navbar shadow');
 
-        $('#navbar-toggler').removeClass('navbar-dark');
-        $('#navbar-toggler').addClass('navbar-light');
+//        $('#navbar-toggler').removeClass('navbar-dark');
+//        $('#navbar-toggler').addClass('navbar-light');
 
         // get the main logo from hidden img tag
         let mainLogo = document.getElementById("main-logo").getAttribute("src");
