@@ -24,6 +24,8 @@
 
 .initial-navbar li a {
   color: #c0ccda;
+  font-weight: 500;
+  border-bottom: 2px solid #1c2d41;
 }
 
 .initial-navbar .navbar-nav .active,
@@ -39,7 +41,8 @@
 .navbar-collapse.show,
 .navbar-collapse.collapsing {
   background-color: #1c2d41;
-  padding-left: 1rem;
+ // padding-left: 1rem;
+ // padding-right: 1rem;
 }
 
 /* --- initial state end ------ */
@@ -61,7 +64,8 @@
   color: #c0ccda;
   font-weight: 500;
   transition: all 0.3s ease-out;
-  border-bottom: 2px solid#F9FAFC;
+ // border-bottom: 2px solid#F9FAFC;
+  border-bottom: 2px solid #1c2d41;
 }
 
 .final-navbar .navbar-nav .active,
@@ -150,6 +154,10 @@
     transition: all 0.3s ease-out;
   }
 
+  .initial-navbar li a {
+    border-bottom: none;
+   }
+
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
     color: #2098d1;
@@ -188,6 +196,10 @@
     transition: all 0.3s ease-out;
   }
 
+  .initial-navbar li a {
+    border-bottom: none;
+   }
+
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
     color: #2098d1;
@@ -225,6 +237,10 @@
     color: #2098d1;
     transition: all 0.3s ease-out;
   }
+
+  .initial-navbar li a {
+    border-bottom: none;
+   }
 
   .final-navbar .navbar-nav .active,
   .final-navbar li a:hover {
